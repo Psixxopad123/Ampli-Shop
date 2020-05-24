@@ -1,0 +1,27 @@
+
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.transition {
+  transition: padding 0.4s linear, background-color 1s ease;
+}
+
+.button {
+  width: 200px;
+  background-color: purple;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+}
+
+.button:hover {
+  background-color: blue;
+  padding: 30px;
+}

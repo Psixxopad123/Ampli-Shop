@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  height: 20vh;
+  justify-content: space-around;
+  background-color: red;
+}
+
+div {
+  width: 200px;
+  background-color: #000f;
+  color: white;
+  border:10px solid white;
+  font-family: cursive;
+}
