@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Advanced Designs</title>
+<meta chaeset="utf-8" />
+<meta name="viewport" content="width=device-width, intial-scale=1" />
+<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="1page.html" class="logo"><strong>Positioning</strong> by Maks </a>
+    </header>
+
+    <!-- Banner -->
+    <section id="Banner">
+      <div class="inner">
+        <h1> Это шаблон сайта, на котором мы изучим позиционирование </h1>
+        <ul class="actions">
+          <li><a href="#one" class="button alt scrolly big">Листай Дальше </a></li>
+          </ul>
+          </div>
+          </section>
+
+          <!-- One -->
+          <article id="one" class="post style1">
+            <div class="image" style="  position: fixed;
+              width: 100px;
+              height: 100px;
+              left: 50%;
+              margin-left: -50px;
+              z-index: 100;
+              top: 68px;">
+              <img src="https://iconizer.net/files/DOT_pictograms/thumb/128/arrow_up.png">
+              </div>
+              <div class="content">
+                <div class="inner">
+                  <header>
+                    <h2><a>Статья первая: Positioning</a></h2>
+                    <p class="info">Today by <a href="#"> Maksim </a></p>
+                    </header>
+                    <p>
+                      Свойство position позволяет точно задать новое местоположение блока относительно того места, где он находился бы.
+                      По умолчанию все элементы распологаються последовательно один за другим в том порядке,
+                      в котором они определены в структуре HTML-Документа. Свойство не наследуется.
+                    </p>
+                    <ul class="actions">
+                      <li><a href="#" class="button alt"> Читать дальше </a></li>
+                      </ul>
+                      </div>
+                      <div class="postnav">
+                        <a href="#" class="prev disabled"><span class="icon fa-chevron-up"></span></a>
+                        <a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+                        </div>
+                        </div>
+                        </article>
+
+                        <!-- Two -->
+                        <article id="two" class="post invert alt">
+                          <div class="image">
+                            <img src="https://lh3.googleusercontent.com/proxy/vNS1-03lR7ces8zAilIpBR45coiNv_aROG5UNC-35t5V6c6EHkd9pG1FrIUvAnBQeUpK5OJ4O_hHR6OI0LecdPxZvVl43aWC4Y0HoJAr4VeAYWSyuhqcSZ43qUIlJVGY"  alt="" data-position="10% center" />
+                            </div>
+                            <div class="content">
+                              <div class="inner">
+                                <header>
+                                  <h2><a href="">Статья Вторая: Fixed</a></h2>
+                                  <p class="info">Tomprrow by <a href="#"> Maksim </a> </p>
+                                  </header>
+                                  <p>Фиксирует Элемент в указанном месте страницы. Блоком-контейнером фиксированного элемента является окно просмотра. </p>
+                                  <ul class="actions">
+                                    <li><a href="" class="button alt"> Читать дальше </a></li>
+                                    </ul>
+                                    </div>
+                                    <div class="postnav">
+                                      <a href="#one" class="scrolly prev"><span class="icon fa=chevron-up"></span></a>
+                                      <a href="#three" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+                                      </div>
+                                      </div>
+                                      </article>
+
+                                      <!-- Three -->
+<article id="three" class="post style2">
+  <div class="image image-relative">
+    <img src="https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg" alt="" data-position="80% center" />
+  <div class="overlay">
+    <h2> А я абсолютный! </h2>
+  </div>
+  </div>
+  <div class="content">
+    <div class="ineer">
+      <header>
+        <h2><a href="generic.html">Статья третья: absolute</a></h2>
+        <p class="info">Today by <a href="#">Maksim</a></p>
+      </header>
+      <p>
+        Абсолютно позиционированный элемент полностью удаляется из потока документа и позиционируется относительно границ.
+        Местоположение краёв элемента определяются с помощью свойств смещения. Пространство, которое занимал такой элемент.
+      </p>
+      <ul class="actions">
+        <li><a href="https://html5book.ru/css-position" class="button alt">Читать дальше </a></li>
+      </ul>
+    </div>
+    <div class="postnav">
+      <a href="#two" class="scrolly prev"><span class="icon fa=chevron=up"></span></a>
+      <a href="#four" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+    </div>
+  </div>
+</article>
+
+<!-- Four -->
+<article id="four" class="[ost invert style2 alt">
+  <div class="image">
+    <img src="https://lh3.googleusercontent.com/proxy/isPxbHuyAIlfiAVbbN-EHEMOvdU5KeXTNs4P1Iy3TZ1zAOtRxQKI8e7BtHK1bvBN0uFb7-Thiq8sk8h6A88uHmXCn62T9I1GSjxXkYXLmmduzMZtnRXvkRcMmPj9UcHe1uKt" alt="" data-position="60% center" />
+  </div>
+  <div class="content" style="
+  position: relative;
+  top: -50px;">
+    <div class="ineer">
+      <header>
+        <h2><a href="generic.html">Статья четвертая: relarive</a></h2>
+        <p class="info">Today by <a href="#">Maksim </a></p>
+      </header>
+      <p> Относительно позиционированный элемент сдвигается со своего обычного места в разных направлениях относительно границ.
+        Если для относительно позиционированного элемента одновременно задать свойства top и bottom или ltft и right.
+
+        Относительное позиционирование позволяет задавать z-index для элемента, а также абсолютно позиционировать дочерение элементы внутри.</p>
+      <ul class="actions">
+        <li><a href="https://html5book.ru/css-position/" class="button alt">Читать дальше </a></li>
+      </ul>
+    </div>
+    <div class="postnav">
+      <a href="#three" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+      <a href="#five" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+    </div>
+  </div>
+</article>
+
+<!-- Footer -->
+<footer id="footer">
+  <ul class="icons">
+    <img src="https://koloro.ru/files/images/content//59d61f2b89153.jpg">
+    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+    <li><a href="#" class="icon fa-instagram"><span class"label">Instagram</span></a></li>
+  </ul>
+</footer>
+</body>
+</html>
